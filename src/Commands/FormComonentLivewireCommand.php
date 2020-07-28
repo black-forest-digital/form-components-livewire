@@ -1,12 +1,12 @@
 <?php
 
-namespace Spatie\Skeleton\Commands;
+namespace Bfd\FormComonentLivewire\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class FormComonentLivewireCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'FormComonentsLivewire';
 
     public $description = 'My command';
 

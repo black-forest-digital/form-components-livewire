@@ -1,9 +1,9 @@
 <?php
 
-namespace Spatie\Skeleton\Tests;
+namespace Bfd\FormComonentLivewire\Tests;
 
 use Orchestra\Testbench\TestCase as Orchestra;
-use Spatie\Skeleton\SkeletonServiceProvider;
+use Bfd\FormComonentLivewire\FormComonentLivewireServiceProvider;
 
 class TestCase extends Orchestra
 {
@@ -17,7 +17,7 @@ class TestCase extends Orchestra
     protected function getPackageProviders($app)
     {
         return [
-            SkeletonServiceProvider::class,
+            FormComonentLivewireServiceProvider::class,
         ];
     }
 
@@ -31,7 +31,7 @@ class TestCase extends Orchestra
         ]);
 
         /*
-        include_once __DIR__.'/../database/migrations/create_skeleton_table.php.stub';
+        include_once __DIR__.'/../database/migrations/create_FormComonentsLivewire_table.php.stub';
         (new \CreatePackageTable())->up();
         */
     }

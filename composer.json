@@ -1,16 +1,16 @@
 {
-    "name": "spatie/:package_name",
-    "description": ":package_description",
+    "name": "black-forest-digital/form-comonents-livewire",
+    "description": "A package to kickstart your Laravel Livewire forms",
     "keywords": [
-        "spatie",
-        ":package_name"
+        "black-forest-digital",
+        "FormComonentsLivewire"
     ],
-    "homepage": "https://github.com/spatie/:package_name",
+    "homepage": "https://github.com/black-forest-digital/form-comonents-livewire",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": ":author_email",
+            "name": "Philipp Kreis",
+            "email": "mail@black-forest-digital.de",
             "homepage": "https://spatie.be",
             "role": "Developer"
         }
@@ -27,12 +27,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Spatie\\Skeleton\\": "src"
+            "Bfd\\FormComonentLivewire\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Spatie\\Skeleton\\Tests\\": "tests"
+            "Bfd\\FormComonentLivewire\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -47,10 +47,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Spatie\\Skeleton\\SkeletonServiceProvider"
+                "Bfd\\FormComonentLivewire\\FormComonentLivewireServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "Spatie\\Skeleton\\SkeletonFacade"
+                "FormComonentLivewire": "Bfd\\FormComonentLivewire\\FormComonentLivewireFacade"
             }
         }
     },
