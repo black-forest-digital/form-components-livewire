@@ -2,8 +2,8 @@
 
 namespace Bfd\FormComonentLivewire;
 
-use Illuminate\Support\ServiceProvider;
 use Bfd\FormComonentLivewire\Commands\FormComonentLivewireCommand;
+use Illuminate\Support\ServiceProvider;
 
 class FormComonentLivewireServiceProvider extends ServiceProvider
 {
