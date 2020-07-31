@@ -2,8 +2,8 @@
 
 namespace Bfd\FormComonentLivewire\Tests;
 
-use Orchestra\Testbench\TestCase as Orchestra;
 use Bfd\FormComonentLivewire\FormComonentLivewireServiceProvider;
+use Orchestra\Testbench\TestCase as Orchestra;
 
 class TestCase extends Orchestra
 {
