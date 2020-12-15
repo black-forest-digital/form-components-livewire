@@ -1,17 +1,17 @@
 {
-    "name": "black-forest-digital/form-comonents-livewire",
+    "name": "black-forest-digital/form-components-livewire",
     "description": "A package to kickstart your Laravel Livewire forms",
     "keywords": [
         "black-forest-digital",
-        "FormComonentsLivewire"
+        "FormComponentsLivewire"
     ],
-    "homepage": "https://github.com/black-forest-digital/form-comonents-livewire",
+    "homepage": "https://github.com/black-forest-digital/form-components-livewire",
     "license": "MIT",
     "authors": [
         {
             "name": "Philipp Kreis",
             "email": "mail@black-forest-digital.de",
-            "homepage": "https://spatie.be",
+            "homepage": "https://black-forest-digital.de",
             "role": "Developer"
         }
     ],
