@@ -5,37 +5,41 @@
 [![Total Downloads](https://img.shields.io/packagist/dt/spatie/FormComonentsLivewire.svg?style=flat-square)](https://packagist.org/packages/spatie/FormComonentsLivewire) -->
 
 
-This is where your description should go. Limit it to a paragraph or two. Consider adding a small example.
+The package provides you with a small set of frequently used laravel form components. We're using them to create livewire driven applications.
 
 ## Installation
 
 You can install the package via composer:
 
 ```bash
-composer require spatie/package-FormComonentsLivewire-laravel
+composer require black-forest-digital/form-components-livewire
 ```
-
+<!--
 You can publish and run the migrations with:
 
 ```bash
 php artisan vendor:publish --provider="Bfd\FormComonentLivewire\FormComonentLivewireServiceProvider" --tag="migrations"
 php artisan migrate
-```
+``` 
+-->
 
-You can publish the config file with:
+You can publish the config file (not required) with:
 ```bash
 php artisan vendor:publish --provider="Bfd\FormComonentLivewire\FormComonentLivewireServiceProvider" --tag="config"
 ```
 
-This is the contents of the published config file:
+<!-- This is the contents of the published config file:
 
 ```php
 return [
 ];
 ```
+-->
 
 ## Usage
 
+wip
+<!--
 ``` php
 $FormComonentsLivewire = new Bfd\FormComonentLivewire();
 echo $FormComonentsLivewire->echoPhrase('Hello, Bfd!');
@@ -46,6 +50,7 @@ echo $FormComonentsLivewire->echoPhrase('Hello, Bfd!');
 ``` bash
 composer test
 ```
+-->
 
 ## Changelog
 
