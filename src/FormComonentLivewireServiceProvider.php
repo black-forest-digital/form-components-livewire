@@ -15,7 +15,7 @@ class FormComonentLivewireServiceProvider extends ServiceProvider
             // ], 'config');
 
             $this->publishes([
-                __DIR__.'/../resources/views' => base_path('resources/views/Components/Forms'),
+                __DIR__.'/../resources/views' => base_path('resources/views'),
             ], 'views');
 
             // if (! class_exists('CreatePackageTable')) {
