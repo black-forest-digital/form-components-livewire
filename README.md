@@ -23,11 +23,17 @@ php artisan migrate
 ``` 
 -->
 
+Publish the views to use and customize them:
+```bash
+php artisan vendor:publish --provider="Bfd\FormComonentLivewire\FormComonentLivewireServiceProvider" --tag="views"
+```
+
+<!--
 You can publish the config file (not required) with:
 ```bash
 php artisan vendor:publish --provider="Bfd\FormComonentLivewire\FormComonentLivewireServiceProvider" --tag="config"
 ```
-
+-->
 <!-- This is the contents of the published config file:
 
 ```php
